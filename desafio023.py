@@ -1,0 +1,27 @@
+
+from calendar import c
+from re import M
+from this import d
+
+
+numero = int(input('Digite o numero: '))
+
+print(numero)
+
+u = numero // 1 % 10
+d = numero // 10 % 10
+c = numero // 100 % 10
+m = numero // 1000 % 10
+
+print('Unidade: {}'.format(u))
+print('Dezena: {}'.format(d))
+print('Centena: {}'.format(c))
+print('Milhar: {}'.format(m))
+#numespaço = numero.replace('', ' ')
+#print(numespaço)
+#numsplit = numespaço.split()
+
+#print('Milhar: ',numsplit[0],'Centena: ',numsplit[1], 'Dezena: ',numsplit[2], 'Unidade: ',numsplit[3])
+
+
+
